@@ -1,0 +1,3 @@
+<%= videorecord @token, "record" %>
+<%= link_to 'start', "/video/startRecord/" + @token, :remote=>true %>
+<%= link_to 'stop', "/video/stopRecord/" + @token, :remote=>true %>

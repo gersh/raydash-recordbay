@@ -1,0 +1,11 @@
+== Introduction 
+The configuration in config/initializers/raydash.rb should look something like:
+
+Raydash.setup do |config|
+  config.userid = "YOUR_USERID"
+  config.secret = "YOUR_SECRET"
+end
+Raydash.setUserInfo('YOUR_AMAZON_KEY','YOUR_AMAZON_SECRET','')
+
+
+
